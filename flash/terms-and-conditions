@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions | Flash</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f9f9f9;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            padding: 32px 24px;
+        }
+        h1, h2, h3 {
+            color: #0077cc;
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            font-size: 1.3em;
+            margin-top: 2em;
+        }
+        p, ul {
+            line-height: 1.7;
+        }
+        ul {
+            margin-left: 1.2em;
+        }
+        .contact {
+            margin-top: 2em;
+            font-size: 1em;
+        }
+        .date {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Terms and Conditions</h1>
+        <div class="date">Effective date: May 30, 2024</div>
+        <p>These Terms and Conditions ("Terms") govern your use of the <strong>Flash</strong> mobile application ("App") provided by DevForSol ("we", "us", or "our"). By downloading or using the App, you agree to these Terms. If you do not agree, please do not use the App.</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using the App, you agree to be bound by these Terms and our Privacy Policy.</p>
+
+        <h2>2. Use of the App</h2>
+        <ul>
+            <li>You must use the App in compliance with all applicable laws and regulations.</li>
+            <li>You may not use the App for any unlawful or prohibited purpose.</li>
+            <li>You are responsible for maintaining the security of your device.</li>
+        </ul>
+
+        <h2>3. Intellectual Property</h2>
+        <p>All content, features, and functionality in the App are owned by DevForSol or its licensors and are protected by copyright and other laws.</p>
+
+        <h2>4. In-App Purchases</h2>
+        <p>The App may offer in-app purchases. All purchases are final and non-refundable except as required by law or app store policy.</p>
+
+        <h2>5. Advertisements</h2>
+        <p>The App may display advertisements. We are not responsible for the content of third-party ads.</p>
+
+        <h2>6. Disclaimer</h2>
+        <p>The App is provided "as is" and "as available" without warranties of any kind. We do not guarantee that the App will be error-free or uninterrupted.</p>
+
+        <h2>7. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, DevForSol shall not be liable for any damages arising from your use of the App.</p>
+
+        <h2>8. Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. Changes will be posted on this page with an updated effective date.</p>
+
+        <div class="contact">
+            <strong>Contact Us:</strong><br>
+            If you have any questions about these Terms, please contact us at:<br>
+            <a href="mailto:devforsol@gmail.com">devforsol@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>
