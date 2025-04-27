@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevForSol | Apps</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7fafd;
+            color: #222;
+        }
+        .header {
+            text-align: center;
+            padding: 48px 16px 16px 16px;
+        }
+        .brand {
+            font-size: 2.2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #0077cc;
+            margin-bottom: 0.2em;
+            animation: fadeInDown 1s;
+        }
+        .tagline {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 2em;
+            animation: fadeIn 2s;
+        }
+        .apps-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+            margin: 0 auto 40px auto;
+            max-width: 600px;
+        }
+        .app-card {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            padding: 32px 24px 24px 24px;
+            width: 100%;
+            max-width: 420px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            animation: fadeInUp 1.2s;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+        }
+        .app-icon {
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
+            border-radius: 16px;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            color: #0077cc;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            animation: popIn 1.2s;
+        }
+        .app-title {
+            font-size: 1.4em;
+            font-weight: 600;
+            margin-bottom: 0.3em;
+            color: #0077cc;
+        }
+        .app-desc {
+            font-size: 1.05em;
+            color: #444;
+            text-align: center;
+            margin-bottom: 1.2em;
+        }
+        .app-links {
+            display: flex;
+            gap: 18px;
+            margin-top: 8px;
+        }
+        .app-link {
+            text-decoration: none;
+            color: #fff;
+            background: #0077cc;
+            padding: 8px 18px;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: background 0.2s;
+        }
+        .app-link:hover {
+            background: #005fa3;
+        }
+        .footer {
+            text-align: center;
+            color: #888;
+            font-size: 1em;
+            padding: 32px 8px 16px 8px;
+        }
+        .social-links {
+            margin-top: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+        }
+        .social-link {
+            color: #0077cc;
+            text-decoration: none;
+            font-size: 1.3em;
+            transition: color 0.2s;
+        }
+        .social-link:hover {
+            color: #005fa3;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes popIn {
+            0% { transform: scale(0.7); opacity: 0; }
+            80% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+        @media (max-width: 600px) {
+            .container, .app-card { padding: 18px 8px; }
+            .app-card { max-width: 98vw; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="brand">DevForSol</div>
+        <div class="tagline">Welcome to our app portfolio!</div>
+    </div>
+    <div class="apps-list">
+        <div class="app-card">
+            <div class="app-icon" title="App icon placeholder">⚡</div>
+            <div class="app-title">Flash</div>
+            <div class="app-desc">
+                Flash is a modern, minimal flashlight app designed for speed and simplicity. Instantly turn on your device's flashlight, use strobe and SOS modes, and enjoy a beautiful, ad-supported experience with optional ad removal. Built with privacy and performance in mind.
+            </div>
+            <div class="app-links">
+                <a class="app-link" href="#" title="App Store (demo)">App Store</a>
+                <a class="app-link" href="#" title="Learn more (demo)">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 DevForSol. All rights reserved.
+        <div class="social-links">
+            <a class="social-link" href="#" title="Twitter (demo)">Twitter</a>
+            <a class="social-link" href="#" title="Email (demo)">Email</a>
+            <a class="social-link" href="#" title="Website (demo)">Website</a>
+        </div>
+    </div>
+</body>
+</html>
